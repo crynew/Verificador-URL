@@ -14,13 +14,13 @@ Após ter realizado todas as configurações necessárias, abra o seu terminal e
 
 ```node main.js```
 
-## Funcionalidades Principais
+## Configuração 
 
 ### 1. Configuração
 Desfrute a do projeto fazendo a configuração das seguintes constantes:
 ```token, roleId, channelLog, guild, urlServe```
 
-## Próximas Atualizações
+## Funcionalidade Principal
 
 Estamos constantemente trabalhando para melhorar e expandir as funcionalidades do DebotCM. As próximas atualizações incluirão:
 
