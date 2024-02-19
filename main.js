@@ -21,14 +21,14 @@ const client = new Client({
     ]
   });
 
-  const guild = "" // id do server
+  const guildId = "" // id do server
   const urlServe = "" // url do server
   const roleId = "" // id do cargo
   const token = "" // token do bot 
   const channelLog = "" // id do canal de logs
 
   async function verify(guild, urlServe, roleId, token, channelLog) {
-    const guild = client.guilds.cache.get(guild);
+    const guild = client.guilds.cache.get(guildId);
     const users = guild.members.cache.map(member => member.user);
   
     for (const user of users) {
